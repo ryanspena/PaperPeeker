@@ -1,0 +1,22 @@
+{
+  "name": "bookfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "node test run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanspena/PaperPeeker.git"
+  },
+  "author": "ryanspena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanspena/PaperPeeker/issues"
+  },
+  "homepage": "https://github.com/ryanspena/PaperPeeker#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
