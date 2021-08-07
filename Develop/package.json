@@ -14,6 +14,13 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
+
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryanspena/PaperPeeker.git"
